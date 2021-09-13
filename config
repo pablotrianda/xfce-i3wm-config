@@ -17,7 +17,7 @@ smart_borders on
 set $inner_gaps 6
 set $outer_gaps 2
 
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 4
 gaps inner $inner_gaps
 gaps outer $outer_gaps
 
@@ -134,7 +134,7 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
+#
 #Volumen
 bindsym $mod+Shift+M exec amixer set 'Master' toggle
 bindsym $mod+Shift+U exec amixer set 'Master' 5%+
