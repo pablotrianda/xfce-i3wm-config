@@ -21,6 +21,7 @@ for_window [class=".*"] border pixel 4
 gaps inner $inner_gaps
 gaps outer $outer_gaps
 
+
 # Font for window titles. 
 font pango:monospace 10
 
@@ -28,7 +29,8 @@ font pango:monospace 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal --hide-menubar
+#bindsym $mod+Return exec xfce4-terminal --hide-menubar
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
