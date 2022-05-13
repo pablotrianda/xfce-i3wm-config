@@ -11,3 +11,5 @@ Configuration for use xfce4 with i3wm embedded.
 3. Put i3 to start on login.</br>
   ![init on login](https://i.imgur.com/xGrk867.png)
 4. Clone this repo to get all configurations on `~/.config/i3/`
+5. Setup the shortcuts. </br>
+  ![shortcuts](https://i.imgur.com/Vgn9iiI.png)
