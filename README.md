@@ -6,7 +6,7 @@ Configuration for use xfce4 with i3wm embedded.
 ## Configuration steps
 1. Install iw3 from a xfce enviroment: 
   `yay -S i3-wm `
-2. Disable native xfce services from desktop and window manager. `xfwm4` and `xfdesktop`
+2. Disable native xfce services from desktop and window manager. `xfwm4` and `xfdesktop`. Put restart style on `Never`
   ![disable services](https://i.imgur.com/r6KeB5P.png)
 3. Put i3 to start on login.</br>
   ![init on login](https://i.imgur.com/xGrk867.png)
