@@ -55,7 +55,7 @@ Configuration for use xfce4 with i3wm embedded.
 </channel>
 ```
 3. kill cache & reboot
-    * rm -rf ~/.cache/* 
+    * `rm -rf ~/.cache/*`
     * Reboot
 4. Setup the shortcuts. </br>
   ![shortcuts](https://i.imgur.com/Vgn9iiI.png)
