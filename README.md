@@ -54,8 +54,18 @@ Configuration for use xfce4 with i3wm embedded.
   </property>
 </channel>
 ```
-3. kill cache & reboot
+
+3. Run the following commands
+```sh
+    xfconf-query -c xfce4-session -p /sessions/Failsafe/Client0_Command -t string -sa xfsettingsd
+    xfconf-query -c xfce4-session -p /sessions/Failsafe/Client1_Command -t string -sa i3
+    xfconf-query -c xfce4-session -p /sessions/Failsafe/Client2_Command -t string -sa xfce4-panel 
+    xfconf-query -c xfce4-session -p /sessions/Failsafe/Client3_Command -t string -s thunar -t string -s --daemon
+    xfconf-query -c xfce4-session -p /sessions/Failsafe/Client4_Command -t string -sa ""
+  ```
+
+4. kill cache & reboot
     * `rm -rf ~/.cache/*`
     * Reboot
-4. Setup the shortcuts. </br>
+5. Setup the shortcuts. </br>
   ![shortcuts](https://i.imgur.com/Vgn9iiI.png)
